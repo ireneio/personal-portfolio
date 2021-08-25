@@ -13,10 +13,11 @@ export function initializeAxios(axiosInstance: NuxtAxiosInstance) {
       'Time-Zone': 8,
       // 'Accept-Language': window ? navigator.language : '',
     },
-    baseURL: process.env.API_URL,
+    // baseURL: process.env.API_URL,
+    baseURL: '',
     timeout
   })
-  
+
 }
 
 export { $axios }

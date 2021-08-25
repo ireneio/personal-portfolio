@@ -51,7 +51,10 @@ export default {
     BLOB_URL: process.env.NUXT_ENV_BLOB_URL || null,
     TIMEOUT_LIMIT: process.env.NUXT_ENV_TIMEOUT_LIMIT,
   },
-  loading: '~/components/BaseLoading.vue',
+  // loading: '~/components/BaseLoading.vue',
+  loading: {
+    color: '#ffa31a'
+  },
   server: {
     port: process.env.PORT || 3000
   }

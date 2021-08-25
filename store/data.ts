@@ -25,10 +25,11 @@ export default class DataModule extends VuexModule {
   }
 
   @Action({ commit: 'setData' })
-  public async sendGetExperienceRequest() : Promise<any> {
+  public async sendGetExperienceRequest(): Promise<any> {
     try {
-      const res: AxiosResponse = await $axios.post('/api', { endpoint: '/static/data.json', method: 'get' })
-      return JSON.parse(res.data.data)
+      const res: AxiosResponse = await $axios.get('/data.json')
+      console.log(res.data)
+      return res.data
     } catch(e) {
       console.log('Error: ' + e.message)
       return []
