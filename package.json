@@ -8,7 +8,7 @@
     "build:bind": "cross-env NUXT_PORT=3000 NUXT_HOST=0.0.0.0 nuxt-ts build",
     "start": "cross-env nuxt-ts start",
     "start:bind": "cross-env NUXT_PORT=3000 NUXT_HOST=0.0.0.0 nuxt-ts start",
-    "generate": "cross-env nuxt-ts generate",
+    "generate": "cross-env NUXT_PORT=3000 NUXT_HOST=0.0.0.0 nuxt-ts generate",
     "test": "jest",
     "heroku": "bash ./heroku-deploy.sh",
     "azure": "bash ./azure-deploy.sh",
