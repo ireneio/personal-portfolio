@@ -18,7 +18,7 @@
       </div>
     </transition>
     <transition name="fade">
-      <div class="navMobile__mask" v-show="navOpen"></div>
+      <div class="navMobile__mask" v-show="navOpen" @click="navOpen = !navOpen"></div>
     </transition>
     <div class="header__bg">
       <div class="container" v-if="headers.length">
