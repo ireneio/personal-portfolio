@@ -1,0 +1,522 @@
+{
+  "experience": [
+    {
+      "id": 0,
+      "imageUrl": "/inno.png",
+      "fullName": "Inno Tech",
+      "stack": [
+        "TypeScript",
+        "React",
+        "NextJS",
+        "Vue 2",
+        "Nuxt.js",
+        "Node.js"
+      ],
+      "comments": [],
+      "link": "/detail/inno",
+      "duration": 1234,
+      "name": "Inno Tech",
+      "sourceUrl": "Gaming SaaS",
+      "publishDate": "Current",
+      "rating": "- Frontend Engineer",
+      "location": "Taipei, Taiwan"
+    },
+    {
+      "id": 1,
+      "imageUrl": "/mayo-slogan.png",
+      "fullName": "MAYO Human Capital",
+      "stack": [
+        "TypeScript",
+        "Vue 2",
+        "Nuxt.js",
+        "React",
+        "Node.js"
+      ],
+      "comments": [
+        "Refactored company's main to B and to C product 'STAYFUN' from an .NET MVC App to VueJS + NuxtJS standalone frontend app with server-side rendering and SEO optimizations. The process includes Typescript integration and custom Webpack configurations, such as strict typing, bundle size reduction, landing & ads page loading time reduction, and local persistence of data. All projects are bundled with Docker and deployed to MS Azure App Service via Azure Container Registry.",
+        "Daily routine includes cooperation with the app team, the backend team, the UI team, and PM/POs. Development process was running Agile development with 2 weeks per sprint."
+      ],
+      "link": "/detail/mayo",
+      "duration": 1234,
+      "name": "MAYO Human Capital",
+      "sourceUrl": "HR SaaS",
+      "publishDate": "1.25 years",
+      "rating": "- Frontend Engineer",
+      "location": "Taipei, Taiwan"
+    },
+    {
+      "id": 2,
+      "imageUrl": "",
+      "fullName": "365 Internet Technologies",
+      "stack": ["React", "Vue 2", "Nuxt.js", "Node.js", "PHP", "mySQL", "Webpack", "Npm", "Yarn", "Docker"],
+      "comments": [
+        "Created Apps for internal CMS systems and real-time Casino App UI, including money processing, real-time data display, and web crawling. Main technologies used includes VueJS, ReactJS, Sass and Typescript for the frontend and NodeJS along with MySQL for the backend.",
+        "Daily routine includes cooperation and meetings with UI/UX designers, other frontend and backend engineers, PMs, and the scrum master. Development process used was mainly Agile with 1 week per Sprint."
+      ],
+      "link": "/detail/365",
+      "duration": 1234,
+      "name": "365 Internet Technologies",
+      "sourceUrl": "HTML 5 Game Producer",
+      "publishDate": "1.33 years",
+      "rating": "- Fullstack Engineer",
+      "location": "Remote"
+    },
+    {
+      "id": 3,
+      "imageUrl": "/linkedin.png",
+      "fullName": "LinkedIn",
+      "stack": ["Python", "Java", "Java Struts"],
+      "comments": [
+        "Internship experience including reading of Python and Java documentation and implementing minutiae features such as data-verification microservices and upper-layers of authentication microservices."
+      ],
+      "link": "/detail/linkedin",
+      "duration": 1234,
+      "name": "LinkedIn",
+      "sourceUrl": "SaaS",
+      "publishDate": ".25 years",
+      "rating": "- Backend Intern",
+      "location": "CA, U.S."
+    }
+  ],
+  "projects": {
+    "enterprise": [
+      {
+        "id": 43,
+        "imageUrl": "/aries.png",
+        "link": "https://blockchain-stake-demo.azurewebsites.net/",
+        "source": "",
+        "duration": 1234,
+        "name": "Blockchain Coin-Staking Client",
+        "sourceUrl": "React/Redux + TS",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 0,
+        "imageUrl": "/mayo-landing.png",
+        "link": "https://preview-mayo-official-rg1.azurewebsites.net/",
+        "source": "",
+        "duration": 1234,
+        "name": "MAYO Landing Client",
+        "sourceUrl": "React + Gatsby",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 1,
+        "imageUrl": "/soccer-animation-client.png",
+        "link": "",
+        "duration": 1234,
+        "name": "Soccer Animation Client",
+        "source": "https://github.com/keiko15678/soccer-animation-frontend",
+        "sourceUrl": "Vue + PixiJS",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 2,
+        "imageUrl": "",
+        "link": "",
+        "duration": 1234,
+        "name": "Soccer Animation Server",
+        "source": "https://github.com/keiko15678/soccer-animation-server",
+        "sourceUrl": "Node.js (ES6) + Webpack",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 3,
+        "imageUrl": "/lasso-1.png",
+        "link": "https://questionnaire-fe.azurewebsites.net/",
+        "duration": 1234,
+        "name": "Lasso Assessment Client + CMS",
+        "source": "https://github.com/keiko15678/lasso-frontend",
+        "sourceUrl": "Nuxt + Typescript",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 4,
+        "imageUrl": "/stayfun-fe.PNG",
+        "link": "https://ecommerce-fe.azurewebsites.net/",
+        "duration": 1234,
+        "name": "STAYFUN Client v2",
+        "source": "https://github.com/keiko15678/ecommerce-fe-nuxt-ts",
+        "sourceUrl": "Nuxt + Typescript + ESLint",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 5,
+        "imageUrl": "/stayfun-be-2.PNG",
+        "link": "https://ecommerce-cms.azurewebsites.net/",
+        "duration": 1234,
+        "name": "STAYFUN CMS v2",
+        "sourceUrl": "Nuxt + Typescript + Vuetify + ESLint",
+        "source": "https://github.com/keiko15678/ecommerce-cms-nuxt-ts",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 7,
+        "imageUrl": "/sms.png",
+        "link": "",
+        "source": "https://github.com/keiko15678/sms-sender-android-js",
+        "duration": 1234,
+        "name": "Chat/Messenger Client for Android (.apk)",
+        "sourceUrl": "JS + Androidjs",
+        "publishDate": 3000050000000,
+        "rating": 99
+      }
+    ],
+    "personal": [
+      {
+        "id": 9,
+        "imageUrl": "/portfolio.PNG",
+        "link": "https://personal-portfolio.azurewebsites.net/",
+        "source": "https://github.com/keiko15678/personal-portfolio",
+        "duration": 1234,
+        "name": "Portfolio Client",
+        "sourceUrl": "Nuxt + TS",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 10,
+        "imageUrl": "/maskmap-vue.png",
+        "link": "https://keiko15678.github.io/maskmap/",
+        "source": "https://github.com/keiko15678/maskmap",
+        "duration": 1234,
+        "name": "Taiwan Mask Availability Map",
+        "sourceUrl": "Nuxt + TS",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 11,
+        "imageUrl": "/calendar-vue.png",
+        "link": "https://keiko15678.github.io/calendarapp-vue/#/",
+        "source": "https://github.com/keiko15678/calendarapp-vue",
+        "duration": 1234,
+        "name": "Calendar Booking Client + Server (LINE Login)",
+        "sourceUrl": "Vue + Node.js",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 12,
+        "imageUrl": "/shop-site-vue.png",
+        "link": "https://keiko15678.github.io/shopsite-vue/#/",
+        "source": "https://github.com/keiko15678/shopsite-vue",
+        "duration": 1234,
+        "name": "Mini Ecommerce Client/CMS (LINE PAY)",
+        "sourceUrl": "Vue + Node.js",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 14,
+        "imageUrl": "/hotel-booking.png",
+        "link": "https://keiko15678.github.io/hotel-demo/",
+        "source": "https://github.com/keiko15678/hotel-demo",
+        "duration": 1234,
+        "name": "Hotel Booking Client",
+        "sourceUrl": "ES6 + JQuery",
+        "publishDate": 3000050000000,
+        "rating": 99
+      }
+    ]
+  },
+  "skillset": {
+    "languages": [
+      {
+        "id": 0,
+        "imageUrl": "/ts.jpg",
+        "link": "",
+        "duration": 1234,
+        "name": "Typescript",
+        "sourceUrl": "2+ years",
+        "publishDate": "Type-checking, OOP development"
+      },
+      {
+        "id": 1,
+        "imageUrl": "/js.jpg",
+        "link": "",
+        "duration": 1234,
+        "name": "Javascript",
+        "sourceUrl": "3+ years",
+        "publishDate": "ES5-10, FP, OOP, Async, Chaining"
+      },
+      {
+        "id": 2,
+        "imageUrl": "/nodejs.png",
+        "link": "",
+        "duration": 1234,
+        "name": "Node.js",
+        "sourceUrl": "3+ years",
+        "publishDate": "API, Proxy, MVC Pattern, ORMs, Crawler"
+      },
+      {
+        "id": 4,
+        "imageUrl": "/sass.jpg",
+        "link": "",
+        "duration": 1234,
+        "name": "Sass",
+        "sourceUrl": "3+ years",
+        "publishDate": "W3C Specifications, CSS Componentization"
+      }
+    ],
+    "databases": [
+      {
+        "id": 10,
+        "imageUrl": "/postgres.png",
+        "link": "",
+        "duration": 1234,
+        "name": "PostgresSQL",
+        "sourceUrl": "2+ years",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 11,
+        "imageUrl": "/firebase.png",
+        "link": "",
+        "duration": 1234,
+        "name": "Google Firebase",
+        "sourceUrl": "1+ years",
+        "publishDate": 3000050000000,
+        "rating": 99
+      },
+      {
+        "id": 12,
+        "imageUrl": "/mongodb.png",
+        "link": "",
+        "duration": 1234,
+        "name": "MongoDB",
+        "sourceUrl": "2+ years",
+        "publishDate": 3000050000000,
+        "rating": 99
+      }
+    ],
+    "devops": [
+      {
+        "id": 16,
+        "imageUrl": "/docker.jpg",
+        "link": "",
+        "duration": 1234,
+        "name": "Docker",
+        "sourceUrl": "2+ years",
+        "publishDate": "Node.js Projects Containerizations"
+      }
+    ],
+    "jsFrameworks": [
+      {
+        "id": 21,
+        "imageUrl": "/vue2.jpg",
+        "link": "",
+        "duration": 1234,
+        "name": "Vue 2",
+        "sourceUrl": "3+ years",
+        "publishDate": "Router, Vuex, Store-Persist, TS Integrations"
+      },
+      {
+        "id": 22,
+        "imageUrl": "/nuxt.png",
+        "link": "",
+        "duration": 1234,
+        "name": "Nuxt",
+        "sourceUrl": "3+ years",
+        "publishDate": "TS Integrations, SSR Optimizations"
+      },
+      {
+        "id": 23,
+        "imageUrl": "/vue3.png",
+        "link": "",
+        "duration": 1234,
+        "name": "Vue 3",
+        "sourceUrl": ".3 years",
+        "publishDate": "Composition API, Logic Grouping"
+      },
+      {
+        "id": 24,
+        "imageUrl": "/react.png",
+        "link": "",
+        "duration": 1234,
+        "name": "React",
+        "sourceUrl": "3+ years",
+        "publishDate": "Hooks, Redux Async Solutions",
+        "rating": 99
+      },
+      {
+        "id": 24,
+        "imageUrl": "/react.png",
+        "link": "",
+        "duration": 1234,
+        "name": "NextJS",
+        "sourceUrl": "3+ years",
+        "publishDate": "SSR",
+        "rating": 99
+      },
+      {
+        "id": 25,
+        "imageUrl": "/webpack.jfif",
+        "link": "",
+        "duration": 1234,
+        "name": "Webpack 4+",
+        "sourceUrl": "3+ years",
+        "publishDate": "Code Splitting, Asset Grouping"
+      },
+      {
+        "id": 27,
+        "imageUrl": "/jest.png",
+        "link": "",
+        "duration": 1234,
+        "name": "Jest",
+        "sourceUrl": "2+ years",
+        "publishDate": "Unit/Integration Tests",
+        "rating": 99
+      },
+      {
+        "id": 271,
+        "imageUrl": "/puppeteer.png",
+        "link": "",
+        "duration": 1234,
+        "name": "Puppeteer",
+        "sourceUrl": "2+ years",
+        "publishDate": "E2E Tests",
+        "rating": 99
+      }
+    ],
+    "concepts": [
+      {
+        "id": 32,
+        "imageUrl": "/agile.jpeg",
+        "link": "",
+        "duration": 1234,
+        "name": "Agile Development",
+        "sourceUrl": "2+ years",
+        "publishDate": "Scrum Cycle, Stand-Ups, Refinements"
+      },
+      {
+        "id": 33,
+        "imageUrl": "/ssr.png",
+        "link": "",
+        "duration": 1234,
+        "name": "SSR, Prerendering.. etc",
+        "sourceUrl": "3+ years",
+        "publishDate": "Prerendering, Isomorphic, Store-Persist"
+      },
+      {
+        "id": 34,
+        "imageUrl": "/pwa.png",
+        "link": "",
+        "duration": 1234,
+        "name": "Progressive Web Apps (PWA)",
+        "sourceUrl": "2+ years",
+        "publishDate": "Mobile Install & Optimizations"
+      },
+      {
+        "id": 35,
+        "imageUrl": "/rwd.png",
+        "link": "",
+        "duration": 1234,
+        "name": "Resposive Web Design (RWD)",
+        "sourceUrl": "3+ years",
+        "publishDate": "RWD & AWD, Prevent loading extra CSS"
+      },
+      {
+        "id": 36,
+        "imageUrl": "/tti.png",
+        "link": "",
+        "duration": 1234,
+        "name": "TTI Improvements (Code Splitting)",
+        "sourceUrl": "3+ years",
+        "publishDate": "Package/Route/Store/Component splits"
+      }
+    ]
+  },
+  "background": {
+    "education": [
+      {
+        "id": 2,
+        "imageUrl": "/bu.jfif",
+        "duration": 1234,
+        "name": "Boston University",
+        "sourceUrl": "08/2015 - 05/2018",
+        "publishDate": "Bachelor's in Computer Science",
+        "rating": ""
+      }
+    ]
+  },
+  "resume": {
+    "download": [
+      {
+        "id": 0,
+        "imageUrl": "/resumeio.png",
+        "fullName": "",
+        "stack": [],
+        "comments": [],
+        "link": "https://resume.io/r/IKn8berzq",
+        "duration": 1234,
+        "name": "[English] Resume - Frontend Engineer",
+        "sourceUrl": "keiko15678",
+        "publishDate": "4 months ago",
+        "rating": " - v3.0.0",
+        "location": ""
+      },
+      {
+        "id": 1,
+        "imageUrl": "/104.png",
+        "fullName": "",
+        "stack": [],
+        "comments": [],
+        "link": "/resume.pdf",
+        "duration": 1234,
+        "name": "[Mandarin] Resume - Frontend Engineer",
+        "sourceUrl": "keiko15678",
+        "publishDate": "3 months ago",
+        "rating": " - v2.1.0",
+        "location": ""
+      }
+    ],
+    "online": [
+      {
+        "id": 2,
+        "imageUrl": "/104.png",
+        "fullName": "",
+        "stack": [],
+        "comments": [],
+        "link": "https://pda.104.com.tw/profile/share/1XeSiHNGJAkvaC8fNjjypGRjwvF0FMU0",
+        "duration": 1234,
+        "name": "[Mandarin] 104 Resume - Frontend Engineer",
+        "sourceUrl": "keiko15678",
+        "publishDate": "3 months ago",
+        "rating": " - v2.1.0",
+        "location": ""
+      }
+    ]
+  },
+  "settings": {
+    "tabs": [
+      { "name": "about", "id": 0, "route": "/about" },
+      { "name": "experience", "id": 1, "route": "/" },
+      { "name": "projects", "id": 2, "route": "/projects" },
+      { "name": "resume", "id": 3, "route": "/resume" },
+      { "name": "skillset", "id": 4, "route": "/skillset" },
+      { "name": "background", "id": 5, "route": "/background" },
+      { "name": "blog", "id": 6, "route": "/blog" }
+    ],
+    "headers": ["THIS", "PROJECT", "IS", "ONLY", "FOR", "SHOWCASE", "AND", "DEMONSTRATION", "PURPOSES"],
+    "externalLinkMap": {
+      "0": "https://github.com/keiko15678",
+      "1": "https://www.linkedin.com/in/keiko-chuang-8185a71a3/"
+    },
+    "welcomeMsg": "Welcome :)"
+  },
+  "info": {
+    "email": "keiko15678@gmail.com",
+    "phone": "(+886)968918091",
+    "version": "1.0.0",
+    "about": "<div class=\"title\">Introduction</div><div class=\"pp\">&nbsp;&nbsp;&nbsp;&nbsp;Web Developer in the SassS industry with 3yrs. experience in mainly the frontend and some NodeJS backend, mainly with the stack consisting of React, NextJS, Sass, Vue, NuxtJS, Node.js, pgSQL, Redis, and Docker, including but not limited to SEO optimizations, bundler configurations, server-side rendering technologies, SQL transaction optimizations, and custom web socket design. Additional experience in IaC with the likes of Azure DevOps and Azure Cloud, including CI/CD pipeline creation and modification, Web App containerization, and Web App / Static Frontend deployment to Azure Container Registry, Azure App Service, and Azure Kubernetes Service.</div><div class=\"title\">Basic Info</div><ul><li><span class=\"li-title\">Location: </span>Taipei, Taiwan</li><li><span class=\"li-title\">Phone: </span>(+886)968918091</li><li><span class=\"li-title\">Email: </span>keiko15678@gmail.com</li></ul><div class=\"title\">Verbal Languages</div><ul><li><span class=\"li-title\">Mandarin (Traditional & Simplified): </span>Native</li><li><span class=\"li-title\">English (U.S.): </span>Native</li></ul>"
+  }
+}
