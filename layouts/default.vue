@@ -224,16 +224,13 @@ export default class Default extends Vue {
 
   private processTabChange(route: string): void {
     const tab: string | null = window.localStorage.getItem('tab')
-    if (route === '/' || route === '/projects' || route === '/skillset' || route === '/background' || route === '/blog' || route === '/resume' || route === '/about') {
-      this.tabShow = true
-    }
-    if (tab !== null && this.tabShow) {
+    if (tab !== null) {
       this.tab = Number(tab)
       const routeObj = this.tabs.find((item: Tab) => Number(item.id) === Number(tab))
       if (routeObj) {
         this.$router.push(routeObj.route)
       }
-    } else if(tab === null) {
+    } else if (tab === null) {
       const path = this.$route.path
       const routeObj: Tab | undefined = this.tabs.find((item: Tab) => item.route === path)
       if (routeObj) {
