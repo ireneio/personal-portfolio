@@ -103,3 +103,23 @@
     }
   }
 }
+
+@keyframes skeleton {
+  from {
+    left: -150px;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+.cardLoading {
+  position: relative;
+  width: 268px;
+  min-height: 250px;
+  background: linear-gradient(to right, transparent 0%, #e8e8e8 50%, transparent 100%);
+  animation: skeleton 1s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

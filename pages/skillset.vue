@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-    <BaseTitleBar label="DevOps & Cloud" />
+    <!-- <BaseTitleBar label="DevOps & Cloud" />
     <div class="container">
       <div class="row">
         <div class="col result">
@@ -55,7 +55,7 @@
           <BaseCard :properties="item" v-for="item in skillset.webServers" :key="item.id" />
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

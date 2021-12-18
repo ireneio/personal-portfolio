@@ -38,6 +38,7 @@
 .result {
   display: flex;
   justify-content: center;
+  min-height: 250px;
   @include grid-xl {
     justify-content: flex-start;
   }

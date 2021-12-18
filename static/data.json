@@ -6,16 +6,11 @@
       "fullName": "Inno Tech",
       "stack": [
         "TypeScript",
+        "React",
+        "NextJS",
         "Vue 2",
-        "Vue 3",
         "Nuxt.js",
-        "Node.js",
-        "Webpack",
-        "Npm",
-        "Yarn",
-        "pgSQL",
-        "Deno",
-        "Docker"
+        "Node.js"
       ],
       "comments": [],
       "link": "/detail/inno",
@@ -35,14 +30,7 @@
         "Vue 2",
         "Nuxt.js",
         "React",
-        "Gatsby",
-        "Node.js",
-        "Webpack",
-        "Npm",
-        "Yarn",
-        "Azure",
-        "AzureDevops",
-        "Docker"
+        "Node.js"
       ],
       "comments": [
         "Refactored company's main to B and to C product 'STAYFUN' from an .NET MVC App to VueJS + NuxtJS standalone frontend app with server-side rendering and SEO optimizations. The process includes Typescript integration and custom Webpack configurations, such as strict typing, bundle size reduction, landing & ads page loading time reduction, and local persistence of data. All projects are bundled with Docker and deployed to MS Azure App Service via Azure Container Registry.",
@@ -159,28 +147,6 @@
         "rating": 99
       },
       {
-        "id": 41,
-        "imageUrl": "",
-        "link": "https://ecommerce-proxy.azurewebsites.net/",
-        "duration": 1234,
-        "name": "STAYFUN Client v2 Proxy",
-        "source": "https://github.com/keiko15678/ecommerce-proxy-node",
-        "sourceUrl": "Nuxt + Typescript + ESLint",
-        "publishDate": 3000050000000,
-        "rating": 99
-      },
-      {
-        "id": 42,
-        "imageUrl": "/stayfun-fe.PNG",
-        "link": "https://tst-stayfun.mayohr.com",
-        "duration": 1234,
-        "name": "STAYFUN Client v1",
-        "source": "",
-        "sourceUrl": "Vue + JQuery + Razor(.NET MVC)",
-        "publishDate": 3000050000000,
-        "rating": 99
-      },
-      {
         "id": 5,
         "imageUrl": "/stayfun-be-2.PNG",
         "link": "https://ecommerce-cms.azurewebsites.net/",
@@ -192,28 +158,6 @@
         "rating": 99
       },
       {
-        "id": 51,
-        "imageUrl": "/stayfun-be.PNG",
-        "link": "https://tst-stayfun.mayohr.com/Backend",
-        "duration": 1234,
-        "name": "STAYFUN CMS v1",
-        "sourceUrl": "Vue + Razor + .NET MVC",
-        "source": "",
-        "publishDate": 3000050000000,
-        "rating": 99
-      },
-      {
-        "id": 6,
-        "imageUrl": "",
-        "link": "",
-        "duration": 1234,
-        "name": "Forward Proxy (Http/Socket)",
-        "source": "https://github.com/keiko15678/proxy-deno-with-auth-db",
-        "sourceUrl": "Deno + Typescript + mySQL",
-        "publishDate": 3000050000000,
-        "rating": 99
-      },
-      {
         "id": 7,
         "imageUrl": "/sms.png",
         "link": "",
@@ -221,17 +165,6 @@
         "duration": 1234,
         "name": "Chat/Messenger Client for Android (.apk)",
         "sourceUrl": "JS + Androidjs",
-        "publishDate": 3000050000000,
-        "rating": 99
-      },
-      {
-        "id": 8,
-        "imageUrl": "",
-        "link": "",
-        "source": "https://github.com/keiko15678/sms-sender-backend",
-        "duration": 1234,
-        "name": "Chat/Messenger Backend",
-        "sourceUrl": "Node.js + pgSQL",
         "publishDate": 3000050000000,
         "rating": 99
       }
@@ -282,17 +215,6 @@
         "rating": 99
       },
       {
-        "id": 13,
-        "imageUrl": "",
-        "link": "",
-        "source": "https://github.com/keiko15678/shopsite-vue-api",
-        "duration": 1234,
-        "name": "Mini Ecommerce API",
-        "sourceUrl": "Node.js + MongoDB + Firebase Auth/Db",
-        "publishDate": 3000050000000,
-        "rating": 99
-      },
-      {
         "id": 14,
         "imageUrl": "/hotel-booking.png",
         "link": "https://keiko15678.github.io/hotel-demo/",
@@ -300,52 +222,6 @@
         "duration": 1234,
         "name": "Hotel Booking Client",
         "sourceUrl": "ES6 + JQuery",
-        "publishDate": 3000050000000,
-        "rating": 99
-      },
-      {
-        "id": 15,
-        "imageUrl": "/ecommerce-lavine.png",
-        "link": "https://safe-ridge-34093.herokuapp.com/",
-        "source": "https://github.com/keiko15678/ecommerce_lavine",
-        "duration": 1234,
-        "name": "Mini Ecommerce #2 Client + Server (Paypal, Stripe)",
-        "sourceUrl": "ES6 + JQuery + Node.js + MongoDB",
-        "publishDate": 3000050000000,
-        "rating": 99
-      }
-    ],
-    "template": [
-      {
-        "id": 160,
-        "imageUrl": "/nuxt-ts-docker-template.png",
-        "link": "https://keiko15678.github.io/nuxt-ts-docker-template/",
-        "source": "https://github.com/keiko15678/nuxt-ts-docker-template",
-        "duration": 1234,
-        "name": "Nuxt + TS + Docker with CI/CD Config",
-        "sourceUrl": "Nuxt + TS + Docker",
-        "publishDate": 3000050000000,
-        "rating": 99
-      },
-      {
-        "id": 16,
-        "imageUrl": "",
-        "link": "",
-        "source": "https://github.com/keiko15678/node-server-es5-webpack-template",
-        "duration": 1234,
-        "name": "Node.js ES5 + Webpack Config",
-        "sourceUrl": "Node.js",
-        "publishDate": 3000050000000,
-        "rating": 99
-      },
-      {
-        "id": 17,
-        "imageUrl": "",
-        "link": "",
-        "source": "https://github.com/keiko15678/scss-snippet",
-        "duration": 1234,
-        "name": "SCSS Snippets + Grid System",
-        "sourceUrl": "Sass",
         "publishDate": 3000050000000,
         "rating": 99
       }
@@ -381,15 +257,6 @@
         "publishDate": "API, Proxy, MVC Pattern, ORMs, Crawler"
       },
       {
-        "id": 3,
-        "imageUrl": "/denojs.png",
-        "link": "",
-        "duration": 1234,
-        "name": "Deno.js",
-        "sourceUrl": ".5 years",
-        "publishDate": "TS Integrations, RESTful API Design"
-      },
-      {
         "id": 4,
         "imageUrl": "/sass.jpg",
         "link": "",
@@ -397,55 +264,9 @@
         "name": "Sass",
         "sourceUrl": "3+ years",
         "publishDate": "W3C Specifications, CSS Componentization"
-      },
-      {
-        "id": 5,
-        "imageUrl": "/html5.jpg",
-        "link": "",
-        "duration": 1234,
-        "name": "HTML 5",
-        "sourceUrl": "3+ years",
-        "publishDate": "W3C Specifications"
-      },
-      {
-        "id": 6,
-        "imageUrl": "/python.png",
-        "link": "",
-        "duration": 1234,
-        "name": "Python",
-        "sourceUrl": "1+ years",
-        "publishDate": "Neural Nerwork Design, Crawler Design"
-      },
-      {
-        "id": 7,
-        "imageUrl": "/netcore.png",
-        "link": "",
-        "duration": 1234,
-        "name": ".NET Core Web API",
-        "sourceUrl": ".5 years",
-        "publishDate": "Web API, ORMs"
-      },
-      {
-        "id": 8,
-        "imageUrl": "/php.jpg",
-        "link": "",
-        "duration": 1234,
-        "name": "PHP",
-        "sourceUrl": "1+ years",
-        "publishDate": "Web API, ORMs, MVC, LAMP Stack"
       }
     ],
     "databases": [
-      {
-        "id": 9,
-        "imageUrl": "/mysql.png",
-        "link": "",
-        "duration": 1234,
-        "name": "mySQL",
-        "sourceUrl": "3+ years",
-        "publishDate": 3000050000000,
-        "rating": 99
-      },
       {
         "id": 10,
         "imageUrl": "/postgres.png",
@@ -479,33 +300,6 @@
     ],
     "devops": [
       {
-        "id": 13,
-        "imageUrl": "/azure.png",
-        "link": "",
-        "duration": 1234,
-        "name": "Azure",
-        "sourceUrl": "2+ years",
-        "publishDate": "AS, ACR, AKS, Functions, AD Settings"
-      },
-      {
-        "id": 14,
-        "imageUrl": "/azuredevops.png",
-        "link": "",
-        "duration": 1234,
-        "name": "Azure Devops",
-        "sourceUrl": "2+ years",
-        "publishDate": "CI/CD Pipeline Setup, Task Manager, Git"
-      },
-      {
-        "id": 15,
-        "imageUrl": "/aws.png",
-        "link": "",
-        "duration": 1234,
-        "name": "AWS",
-        "sourceUrl": "2+ years",
-        "publishDate": "S3, EC2, Lambda, FE Deployments"
-      },
-      {
         "id": 16,
         "imageUrl": "/docker.jpg",
         "link": "",
@@ -513,51 +307,6 @@
         "name": "Docker",
         "sourceUrl": "2+ years",
         "publishDate": "Node.js Projects Containerizations"
-      },
-      {
-        "id": 161,
-        "imageUrl": "/heroku.jpeg",
-        "link": "",
-        "duration": 1234,
-        "name": "Heroku",
-        "sourceUrl": "2+ years",
-        "publishDate": "Heroku CI/CD via Dockerhub & Github"
-      },
-      {
-        "id": 17,
-        "imageUrl": "/k8s.png",
-        "link": "",
-        "duration": 1234,
-        "name": "Kubernetes",
-        "sourceUrl": ".5 years",
-        "publishDate": "Basic Settings & Entry Debugging"
-      },
-      {
-        "id": 18,
-        "imageUrl": "/gh-actions.png",
-        "link": "",
-        "duration": 1234,
-        "name": "Github Actions",
-        "sourceUrl": "1+ years",
-        "publishDate": "Gh-page Deployment Automations"
-      },
-      {
-        "id": 19,
-        "imageUrl": "/jenkins.png",
-        "link": "",
-        "duration": 1234,
-        "name": "Jenkins",
-        "sourceUrl": "2+ years",
-        "publishDate": "CI/CD Pipeline Setup"
-      },
-      {
-        "id": 20,
-        "imageUrl": "/travisci.jpg",
-        "link": "",
-        "duration": 1234,
-        "name": "TravisCI",
-        "sourceUrl": "1+ years",
-        "publishDate": "CI/CD Pipeline Setup"
       }
     ],
     "jsFrameworks": [
@@ -594,8 +343,18 @@
         "link": "",
         "duration": 1234,
         "name": "React",
-        "sourceUrl": "2+ years",
-        "publishDate": "Class, Hooks, Redux Async Solutions",
+        "sourceUrl": "3+ years",
+        "publishDate": "Hooks, Redux Async Solutions",
+        "rating": 99
+      },
+      {
+        "id": 24,
+        "imageUrl": "/react.png",
+        "link": "",
+        "duration": 1234,
+        "name": "NextJS",
+        "sourceUrl": "3+ years",
+        "publishDate": "SSR",
         "rating": 99
       },
       {
@@ -606,15 +365,6 @@
         "name": "Webpack 4+",
         "sourceUrl": "3+ years",
         "publishDate": "Code Splitting, Asset Grouping"
-      },
-      {
-        "id": 26,
-        "imageUrl": "/eslint.png",
-        "link": "",
-        "duration": 1234,
-        "name": "ESLint",
-        "sourceUrl": "3+ years",
-        "publishDate": "Standard, Prettier, Custom Configs"
       },
       {
         "id": 27,
@@ -637,46 +387,6 @@
         "rating": 99
       }
     ],
-    "os": [
-      {
-        "id": 28,
-        "imageUrl": "/linux.png",
-        "link": "",
-        "duration": 1234,
-        "name": "Linux/Unix (Ubuntu)",
-        "sourceUrl": "2+ years",
-        "publishDate": "Vim & Basic Shell Navigation"
-      },
-      {
-        "id": 29,
-        "imageUrl": "/windows.jpg",
-        "link": "",
-        "duration": 1234,
-        "name": "Windows",
-        "sourceUrl": "20+ years",
-        "publishDate": "Basic scripting"
-      }
-    ],
-    "webServers": [
-      {
-        "id": 30,
-        "imageUrl": "/nginx.png",
-        "link": "",
-        "duration": 1234,
-        "name": "Nginx",
-        "sourceUrl": "2+ years",
-        "publishDate": "Load Balancer, Forward & Reverse Proxy"
-      },
-      {
-        "id": 31,
-        "imageUrl": "/apache.png",
-        "link": "",
-        "duration": 1234,
-        "name": "Apache",
-        "sourceUrl": "1+ years",
-        "publishDate": "PHP Integrations, Proxy Setup"
-      }
-    ],
     "concepts": [
       {
         "id": 32,
@@ -692,7 +402,7 @@
         "imageUrl": "/ssr.png",
         "link": "",
         "duration": 1234,
-        "name": "SEO Optimizations (SSR Solutions)",
+        "name": "SSR, Prerendering.. etc",
         "sourceUrl": "3+ years",
         "publishDate": "Prerendering, Isomorphic, Store-Persist"
       },
@@ -807,6 +517,6 @@
     "email": "keiko15678@gmail.com",
     "phone": "(+886)968918091",
     "version": "1.0.0",
-    "about": "<div class=\"title\">Introduction</div><div class=\"pp\">&nbsp;&nbsp;&nbsp;&nbsp;Web Developer and M.L. Engineer in the SassS industry with 2yrs. experience in both the frontend and the backend mainly with the stack consisting of Sass, VueJS, NuxtJS, Node.js, mySQL, pgSQL, Redis, and Docker, including but not limited to SEO optimizations, bundler configurations, server-side rendering technologies, SQL transaction optimizations, and custom web socket design. Additional experience in IaC with the likes of Azure DevOps and Azure Cloud, including CI/CD pipeline creation and modification, Web App containerization, and Web App / Static Frontend deployment to Azure Container Registry, Azure App Service, and Azure Kubernetes Service.</div><div class=\"title\">Basic Info</div><ul><li><span class=\"li-title\">Location: </span>Taipei, Taiwan / Remote</li><li><span class=\"li-title\">Phone: </span>(+886)968918091</li><li><span class=\"li-title\">Email: </span>keiko15678@gmail.com</li></ul><div class=\"title\">Verbal Languages</div><ul><li><span class=\"li-title\">Mandarin (Traditional & Simplified): </span>Native</li><li><span class=\"li-title\">English (U.S.): </span>Native</li><li><span class=\"li-title\">Japanese: </span>Conversational</li><li><span class=\"li-title\">Spanish (Latin America): </span>Conversational</li></ul>"
+    "about": "<div class=\"title\">Introduction</div><div class=\"pp\">&nbsp;&nbsp;&nbsp;&nbsp;Web Developer in the SassS industry with 3yrs. experience in mainly the frontend and some NodeJS backend, mainly with the stack consisting of React, NextJS, Sass, Vue, NuxtJS, Node.js, pgSQL, Redis, and Docker, including but not limited to SEO optimizations, bundler configurations, server-side rendering technologies, SQL transaction optimizations, and custom web socket design. Additional experience in IaC with the likes of Azure DevOps and Azure Cloud, including CI/CD pipeline creation and modification, Web App containerization, and Web App / Static Frontend deployment to Azure Container Registry, Azure App Service, and Azure Kubernetes Service.</div><div class=\"title\">Basic Info</div><ul><li><span class=\"li-title\">Location: </span>Taipei, Taiwan</li><li><span class=\"li-title\">Phone: </span>(+886)968918091</li><li><span class=\"li-title\">Email: </span>keiko15678@gmail.com</li></ul><div class=\"title\">Verbal Languages</div><ul><li><span class=\"li-title\">Mandarin (Traditional & Simplified): </span>Native</li><li><span class=\"li-title\">English (U.S.): </span>Native</li></ul>"
   }
 }

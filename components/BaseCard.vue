@@ -1,12 +1,13 @@
 <template>
   <div class="card">
+    <!-- <div class="cardLoading"></div> -->
     <div
       class="card__pic"
       @click="$emit('click-pic', $event)"
       :style="{
         'background-image':
-          properties.imageUrl && properties.imageUrl !== '' 
-            ? `url(${properties.staticPath ? properties.staticPath.concat(properties.imageUrl) : properties.imageUrl})` 
+          properties.imageUrl && properties.imageUrl !== ''
+            ? `url(${properties.staticPath ? properties.staticPath.concat(properties.imageUrl) : properties.imageUrl})`
             : 'card-placeholder.png',
       }"
       :class="{
@@ -41,8 +42,8 @@
       </div>
     </div>
     <div class="card__footer" v-else>
-      <div 
-        class="card__views" 
+      <div
+        class="card__views"
         :class="{
           'card__source--active': properties.source && properties.source !== '',
           'card__source--disabled': !properties.source || properties.source === '',

@@ -2,21 +2,23 @@
   <div>
     <div class="headerMobile">
       <div class="headerMobile__hamburger headerMobile__iconBox" @click="navOpen = !navOpen">
-        <fa icon="bars" class="headerMobile__icon"></fa>
+        <fa icon="bars" class="headerMobile__icon" v-show="!navOpen"></fa>
+        <fa icon="times" class="headerMobile__icon" v-show="navOpen"></fa>
       </div>
       <div class="headerMobile__logo"
         @click="$router.push('/');tab = 0"
       ></div>
       <div class="headerMobile__iconBox">
-        <fa icon="search" class="headerMobile__icon headerMobile__icon--search"></fa>
+        <!-- <fa icon="search" class="headerMobile__icon headerMobile__icon--search"></fa> -->
       </div>
     </div>
     <transition name="slide">
-      <div class="navMobile__mask" v-show="navOpen">
-        <div class="navMobile">
-          <div class="navMobile__item" :class="{ 'navMobile__item--current': tab === item.id }" v-for="item in tabs" :key="item.id" @click="handleUpdateTab(item.id, item.route)">{{ item.name }}</div>
-        </div>
+      <div class="navMobile" v-show="navOpen">
+        <div class="navMobile__item" :class="{ 'navMobile__item--current': tab === item.id }" v-for="item in tabs" :key="item.id" @click="handleUpdateTab(item.id, item.route)">{{ item.name }}</div>
       </div>
+    </transition>
+    <transition name="fade">
+      <div class="navMobile__mask" v-show="navOpen"></div>
     </transition>
     <div class="header__bg">
       <div class="container" v-if="headers.length">
@@ -82,7 +84,7 @@
                   {{ info.email }}
                 </a>
               </div>
-              <div class="link__dropdownChild--last">Phone: <a href="javascript:;">{{ info.phone }}</a></div>
+              <div class="link__dropdownChild--last">Phone: <a :href="`tel:${info.phone}`">{{ info.phone }}</a></div>
             </div>
           </button>
         </div>
@@ -114,89 +116,79 @@
           <Nuxt />
         </main>
       </div>
-      <!-- <div class="footer__bgTop"> -->
-        <div class="footer">
-          <div class="footer__bgTop">
-            <div class="footer__top">
-              <div class="container">
-                <div class="footer__topBarBox">
-                  <div class="footer__topBar">
-                    <div class="footer__topBarTitle">Information</div>
-                    <div class="footer__topBarList">
-                      <div class="footer__topBarListItem" v-for="item in tabs" :key="item.id" @click="handleUpdateTab(item.id, item.route)">{{ item.name }}</div>
-                    </div>
+      <div class="footer">
+        <div class="footer__bgTop">
+          <div class="footer__top">
+            <div class="container">
+              <div class="footer__topBarBox">
+                <div class="footer__topBar">
+                  <div class="footer__topBarTitle">Information</div>
+                  <div class="footer__topBarList">
+                    <div class="footer__topBarListItem" v-for="item in tabs" :key="item.id" @click="handleUpdateTab(item.id, item.route)">{{ item.name }}</div>
                   </div>
-                  <div class="footer__topBar">
-                    <div class="footer__topBarTitle">inquiries</div>
-                    <div class="footer__topBarList">
-                      <div class="footer__topBarListItem">
-                        <a :href="`mailto:${info.email}?subject:work-inquiries&body=work-inquiries`">
-                          Email
-                        </a>
-                      </div>
-                      <div class="footer__topBarListItem">
-                        <div class="link" @click="handleToggleDropdown($event, 'contactFooter')">
-                          Phone
-                          <div class="link__dropdown" v-show="dropdown.contactFooter" @click="$event.stopPropagation()">
-                            <div>{{ info.phone }}</div>
-                          </div>
-                        </div>
-                      </div>
+                </div>
+                <div class="footer__topBar">
+                  <div class="footer__topBarTitle">inquiries</div>
+                  <div class="footer__topBarList">
+                    <div class="footer__topBarListItem">
+                      <a :href="`mailto:${info.email}?subject:work-inquiries&body=work-inquiries`">
+                        Email
+                      </a>
                     </div>
-                  </div>
-                  <div class="footer__topBar">
-                    <div class="footer__topBarTitle">About</div>
-                    <div class="footer__topBarList">
-                      <div class="footer__topBarListItem">
-                        <div class="link" @click="handleToggleDropdown($event, 'aboutFooter')">
-                          Version
-                          <div class="link__dropdown" v-show="dropdown.aboutFooter" @click="$event.stopPropagation()">
-                            {{ 'v' + info.version || '1.0' }}- inspired by <a href="https://pornhub.com" target="_blank">Pornhub.com</a>
-                          </div>
-                        </div>
-                      </div>
+                    <div class="footer__topBarListItem">
+                      <a class="link" :href="`tel:${info.phone}`">
+                        Phone
+                      </a>
                     </div>
                   </div>
                 </div>
-                <div class="footer__topBarLangBox">
-                  <div class="footer__topBarLang">
-                    <div class="footer__topBarLangLabel">Language:</div>
-                    <select name="" id="">
-                      <option value="english">English</option>
-                    </select>
+                <div class="footer__topBar">
+                  <div class="footer__topBarTitle">About</div>
+                  <div class="footer__topBarList">
+                    <div class="footer__topBarListItem" @click="handleToggleDropdown($event, 'aboutFooter')">
+                      {{ 'v' + info.version || '1.0' }}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="footer__bottom">
-              <div class="footer__bottomLeft">
-                <div @click="handleExternalLink(0)" class="footer__bottomLeftItem footer__bottomLeftItem--active">
-                  <fa :icon="['fab', 'github']" class="headerMobile__icon headerMobile__icon--search"></fa>
-                </div>
-                <div @click="handleExternalLink(1)" class="footer__bottomLeftItem footer__bottomLeftItem--active">
-                  <fa :icon="['fab', 'linkedin']" class="headerMobile__icon headerMobile__icon--search"></fa>
-                </div>
-                <div class="footer__bottomLeftItem">
-                  <fa :icon="['fas', 'star']" class="headerMobile__icon headerMobile__icon--search"></fa>
-                </div>
-                <div class="footer__bottomLeftItem">
-                  <fa :icon="['fas', 'star']" class="headerMobile__icon headerMobile__icon--search"></fa>
-                </div>
-                <div class="footer__bottomLeftItem">
-                  <fa :icon="['fas', 'star']" class="headerMobile__icon headerMobile__icon--search"></fa>
-                </div>
-              </div>
-              <div class="footer__bottomRight">
-                <div class="footer__bottomRightItem">
-                  &copy; IreneHub.com, 2021
+              <div class="footer__topBarLangBox">
+                <div class="footer__topBarLang">
+                  <div class="footer__topBarLangLabel">Language:</div>
+                  <select name="" id="">
+                    <option value="english">English</option>
+                  </select>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      <!-- </div> -->
+        <div class="container">
+          <div class="footer__bottom">
+            <div class="footer__bottomLeft">
+              <div @click="handleExternalLink(0)" class="footer__bottomLeftItem footer__bottomLeftItem--active">
+                <fa :icon="['fab', 'github']" class="headerMobile__icon headerMobile__icon--search"></fa>
+              </div>
+              <div @click="handleExternalLink(1)" class="footer__bottomLeftItem footer__bottomLeftItem--active">
+                <fa :icon="['fab', 'linkedin']" class="headerMobile__icon headerMobile__icon--search"></fa>
+              </div>
+              <div class="footer__bottomLeftItem">
+                <fa :icon="['fas', 'star']" class="headerMobile__icon headerMobile__icon--search"></fa>
+              </div>
+              <div class="footer__bottomLeftItem">
+                <fa :icon="['fas', 'star']" class="headerMobile__icon headerMobile__icon--search"></fa>
+              </div>
+              <div class="footer__bottomLeftItem">
+                <fa :icon="['fas', 'star']" class="headerMobile__icon headerMobile__icon--search"></fa>
+              </div>
+            </div>
+            <div class="footer__bottomRight">
+              <div class="footer__bottomRightItem">
+                &copy; IreneHub.com, 2021
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -220,6 +212,15 @@ export default class Default extends Vue {
   private static tabInit: number = 999999999
 
   private tab: number = Default.tabInit
+
+  @Watch('navOpen')
+  onNavOpen(val: boolean) {
+    if (val) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'auto'
+    }
+  }
 
   private processTabChange(route: string): void {
     const tab: string | null = window.localStorage.getItem('tab')
