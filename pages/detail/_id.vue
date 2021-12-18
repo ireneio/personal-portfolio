@@ -170,7 +170,7 @@ export default class DetailId extends Vue {
         this.info = info
       }
     } catch (e) {
-      console.log(e.message)
+      console.log((e as Error).message)
     }
   }
 }

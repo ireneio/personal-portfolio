@@ -28,10 +28,9 @@ export default class DataModule extends VuexModule {
   public async sendGetExperienceRequest(): Promise<any> {
     try {
       const res: AxiosResponse = await $axios.get('/data.json')
-      console.log(res.data)
       return res.data
     } catch(e) {
-      console.log('Error: ' + e.message)
+      console.log((e as Error).message)
       return []
     }
   }

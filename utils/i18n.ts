@@ -42,7 +42,7 @@ class I18n {
       const result = await $axios.post('/Utility/QueryParameters', requestBody)
       this.setI18nData(result)
     } catch(e) {
-      console.log('Error: ' + e.message)
+      console.log((e as Error).message)
     }
   }
 
